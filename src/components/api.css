@@ -1,12 +1,9 @@
 .search-div {
     padding: 1rem 5rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 form {
-    display: flex;
     margin: 0 auto;
-    justify-content: space-around;
-    align-items: center;
     width: 40%;
     border-radius: 20px;
     background: white;
@@ -73,6 +70,9 @@ form {
     font-size: 4rem;
     color: red;
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
 }
 
 .icon {
@@ -82,4 +82,34 @@ form {
     bottom: 95px;
     right: 15px;
     position: absolute;
+    cursor: pointer;
+}
+
+.fav-div {
+    margin: 4rem 0px;
+    display: grid;
+    place-items: center;
+}
+
+.fav {
+    padding: 16px 20px;
+    background-color: cadetblue;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+}
+.fav-div span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
 }
